@@ -1,0 +1,22 @@
+{
+  "name": "miya",
+  "version": "1.0.0",
+  "description": "It's my second e-commerce project named Miya",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyt0229/Miya.git"
+  },
+  "author": "Aris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyt0229/Miya/issues"
+  },
+  "homepage": "https://github.com/dyt0229/Miya#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
