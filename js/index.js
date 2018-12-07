@@ -1,6 +1,6 @@
 function createUI(that, top1) {
     let boxDom = document.createElement("div");
-    boxDom.style.cssText = "width:700px;height:600px;background:red;z-Index:2;position:absolute;left:218px;";
+    boxDom.style.cssText = "width:700px;height:600px;background:yellow;z-Index:2;position:absolute;left:218px;";
     boxDom.style.top = top1 + "px";
     boxDom.className = "appendBox";
     that.append(boxDom);
@@ -32,8 +32,8 @@ $(".liList").each(function(i){
             "display":"none"
         });
         
-        
-        createUI($(this),top1);
+        $(this).children(".deBox").css("display","block");
+        // createUI($(this),top1);
         
     },function(){
         $(this).css({
@@ -47,7 +47,8 @@ $(".liList").each(function(i){
         $(this).children(".liRight").css({
             "display": "block"
         });
-        $(".appendBox").remove();
+        // $(".appendBox").remove();
+        $(this).children(".deBox").css("display", "none");
     })
 })
     let s1 = new Slider03({
