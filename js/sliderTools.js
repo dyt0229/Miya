@@ -455,7 +455,7 @@ Slider03.prototype.createUI = function () {
     }
     this.$box.append(htmlStr);
     //ul li 
-    htmlStr ='<ul style="position:absolute;list-style:none;height:12px;border-radius:12px;padding:6px;padding-left:20px;right:125px;bottom:10px;z-Index:2;background-color:#b2b2b2;opacity:0.8;">';
+    htmlStr ='<ul style="position:absolute;list-style:none;height:12px;border-radius:12px;padding:6px;padding-left:20px;right:125px;bottom:10px;z-Index:1;background-color:#b2b2b2;opacity:0.8;">';
     for (let i = 0; i < this.imgs.length; i++) {
         htmlStr+='<li style="margin-right:20px;float:left;';
         htmlStr+='width:'+this.btnSize+'px;';
