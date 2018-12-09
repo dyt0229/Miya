@@ -15,7 +15,7 @@ function getStyle(domObj,attr){
 //参数：DOM元素的类名(id,class,tag)
 //返回值：获取到的DOM元素
 
-function $(str){
+function $$(str){
     if(str.charAt(0)=="#"){
         return document.getElementById(str.substring(1));
     }else if(str.charAt(0)=="."){
