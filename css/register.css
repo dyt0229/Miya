@@ -37,7 +37,20 @@
 }
 .reg{
     height: 40px;
+    margin-bottom: 32px;
+    position: relative;
+}
+.regLast{
     margin-bottom: 17px;
+}
+.reg .regtit{
+    display: block;
+    width: 217px;
+    height: 20px;
+    position: absolute;
+    top:45px;
+    left: 75px;
+    /* background: gray; */
 }
 label{
     display:inline-block;
@@ -61,6 +74,8 @@ label{
     color: white;
     border:none;
     margin-bottom: 10px;
+    outline: none;
+    cursor: pointer;
 }
 .otherMethod span{
     font-size: 12px;

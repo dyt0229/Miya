@@ -1,0 +1,434 @@
+.deMainBox{
+    background:white;
+}
+.deTit{
+    width:1100px;
+    height: 50px;
+    line-height: 50px;
+    margin:0 auto;
+    font-size: 12px;
+    color:#666666;
+}
+.deTit a{
+    color:#666666;
+    margin-right: 8px;
+}
+.deTit a:hover{
+    color: #ff3b93;
+}
+
+.clearBox{
+    width:1100px;
+    padding:20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.show{
+   width:396px;
+   float: left;
+}
+.bigBox{
+    position: relative;
+    width: 396px;
+    height: 398px;
+    padding: 4px;
+    border:1px solid #f7f7f7;
+}
+.bigImg{
+    width: 396px;
+}
+.fuLeft{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.fuRight{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.suoImg{
+    height: 74px;
+    padding: 8px 0;
+}
+.suoImg img{
+    width: 72px;
+    height: 72px;
+    border:1px solid #f4f4f4;
+}
+.suoImg img:nth-child(1){
+    border-color:#f450a2;
+}
+
+.showRight{
+    width:598px;
+    float: right;
+    
+}
+.rTop{
+    position: relative;
+}
+.rTop img{
+    width:22px;
+    height: 14px;
+    vertical-align: middle;
+}
+.rTop em{
+    font-style: normal;
+    color: #999999;
+    font-size: 12px;
+}
+.rTop h2{
+    font-size: 17px;
+    color: #666666;
+    font-weight: 500;
+    height: 43px;
+    line-height: 43px;
+}
+.rTop h2 a{
+    color: #666666;
+}
+.rTop h2 span{
+    color:#ff3b93;
+}
+.rTop p{
+    font-size: 13px;
+    color: #666666;
+    line-height: 20px;
+    height: 40px;
+}
+.share{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:30px;
+    background: url(../imgs/detailImg/shareico.png);
+}
+.wechat{
+    right:48px;
+    background-position:-180px 0px;
+}
+.weibo{
+    right:23px;
+    background-position: 0px 0px;
+}
+
+.priceBox{
+    background: #fff9fd;
+    overflow: hidden;
+    padding-top:12px;
+    margin-top: 10px;
+}
+.priceBox span{
+    font-size: 15px;
+    color:#666666;
+    width: 60px;
+    text-align: center;
+    float: left;
+}
+.all{
+    width: 530px;
+    float: left;
+}
+.sellPrice h3{
+    font-size: 16px;
+    color: #f43a99;
+}
+.sellPrice em{
+    font-style: normal;
+    font-size: 10px;
+    color: #808080;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.sellPrice i{
+    font-size: 11px;
+    color: #666666;
+    font-style: normal;
+    text-decoration: line-through;
+}
+.discount a:nth-child(1){
+    font-size: 12px;
+    color: white;
+    background: #fc6c80;
+    width: 24px;
+    height: 21px;
+    padding:4px;
+}
+.discount a:nth-child(2){
+    font-size: 11px;
+    color: #ff3b93;
+    margin-left: 7px;
+}
+.getTicket{
+    margin-top: 12px;
+}
+.getTicket .atic{
+    float: left;
+    font-size: 12px;
+    color: white;
+    background: #fc6c80;
+    width: 24px;
+    height: 14px;
+    line-height: 14px;
+    padding:4px;
+    margin-right: 8px;
+}
+.ticket{
+    width: 230px;
+    float: left;
+    height: 31px;
+}
+.ticket a{
+    float: left;
+    width: 100px;
+    height: 21px;
+    text-align: center;
+    color:#ff3b93;
+    margin-right: 8px;
+    background: url(../imgs/detailImg/ticbg.png) no-repeat;
+    background-position: -100px 0px;
+    margin-bottom: 10px;
+}
+
+/* .getTicket .upanddown{
+    width: 0px;
+    height: 0px;
+    border:10px solid transparent;
+    border-top-color: #ff3b93;
+    margin-left: 100px;
+    margin-top: 10px; */
+    /* position: absolute; */
+/* } */
+.getTicket .upanddown{
+    width: 11px;
+    height: 11px;
+    padding:5px;
+    margin-left: 100px;
+    background: url(../imgs/detailImg/ticbg.png);
+    background-position: 255px 6px;
+}
+
+.countBox{
+    margin-top: 12px;
+    overflow: hidden;
+}
+.countBox span{
+    font-size: 15px;
+    color:#808080;
+    width: 60px;
+    text-align: center;
+    float: left;
+}
+
+.buyImg{
+    width: 523px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+.imgBox{
+    position: relative;
+    float: left;
+    width: 45px;
+    height:45px;
+    border:1px solid #b5b5b5;
+    margin-right: 6px;
+}
+.imgBox img{
+    width: 45px;
+    height: 45px;
+}
+.de{
+    position: absolute;
+    background: url(../imgs/detailImg/detail_imgs_png8.png);
+    
+}
+.check{
+    bottom: 0;
+    right: 2px;
+    width:17px;
+    height: 17px;
+    background-position: -50px -100px;
+}
+.buyCountBox{
+    float: left;
+    width:76px;
+    height: 28px;
+    margin-bottom: 20px;
+    margin-right: 450px;
+    border:1px solid #b3b3b3;
+    position: relative;
+}
+.buyCountBox span{
+    width: 24px;
+    position: absolute;
+}
+.minus{
+    width: 24px;
+    height: 28px;
+    left: 0px;
+    background-position:0px -150px;
+}
+.plus{
+    right: 0px;
+    width: 24px;
+    height: 28px;
+    float: left;
+    background-position:-50px -150px;
+}
+#buyCount{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 24px;
+    text-align: center;
+    font-style: normal;
+}
+.starBox{
+    float: left;
+    width: 500px;
+}
+.starImg{
+    width: 78px;
+    height: 12px;
+    display: inline-block;
+    background: url(../imgs/detailImg/star1.png);
+}
+.starBox p{
+    display: inline-block;
+    font-size: 11px;
+    color:#666666;
+}
+.starBox p em{
+    /* font-size:11px; */
+    font-style: normal;
+    color: #ff3b93;
+    margin-left: 19px;
+}
+.addCartBox{
+    clear: both;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.addart{
+    float: left;
+    margin-right: 12px;
+}
+.addart a{
+    display: block;
+    width: 225px;
+    height: 55px;
+    background: #f450a2;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+}
+.collection{
+    float: left;
+    position: relative;
+}
+.collection a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border:1px solid #e2e2e2;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    color:#666666;
+    padding-top: 20px;
+}
+.heart{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    left: 40px;
+    top: 8px;
+    background: url(../imgs/detailImg/heart1.png);
+}
+.rBotEnd{
+    
+    width: 350px;
+}
+.rBotEnd p{
+    font-size: 10px;
+    height: 40px;
+    line-height: 40px;
+    color: #808080;
+}
+.rBotEnd ul li{
+    list-style-image: url(../imgs/detailImg/point.jpg);
+    float: left;
+    font-size: 11px;
+    color: #999999;
+    margin-left: 15px;
+}
+
+.deLine{
+    margin:18px auto 0;
+    /* margin-top:18px; */
+    width: 1100px;
+    height: 18px;
+    background: url(../imgs/detailImg/cline.png);
+}
+
+.aboutRec{
+    width: 1100px;
+    /* height: 243px; */
+    margin: 18px auto;
+    overflow: hidden;
+    padding-bottom: 46px;
+}
+.aboutRec ul li{
+    width: 157px;
+    height: 243px;
+    margin-left: 8px;
+    float: left;
+}
+
+.aboutRec ul li img{
+    width: 155px;
+    border:1px solid #ebebeb;
+}
+.arText a{
+    font-size: 12px;
+    color: #666666;
+    line-height: 18px;
+}
+.arText h6{
+    font-weight: 500;
+    color: #f43a99;
+    height: 27px;
+    line-height: 27px;
+}
+
+.deNav{
+    width: 1100px;
+    height: 45px;
+    background: #ff3b93;
+    margin:0 auto;
+}
+.deTit li{
+    padding-left:20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 12px;
+    line-height: 45px;
+    height: 45px;
+    float: left;
+    background: #ff3b93;
+}
+.deTit li:nth-child(1){
+    background: #ec0871;
+}
+
+.deListBox{
+    width: 1100px;
+    margin:0 auto;
+    
+}
+.deList{
+    width:858px;
+    border:1px solid #ebebeb;
+}

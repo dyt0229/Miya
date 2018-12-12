@@ -1,4 +1,7 @@
 
+body{
+    background: #f2f2f0 !important;
+}
 .totalBox{
     display: block !important;
 }
@@ -17,7 +20,8 @@
 .mainBox{
     width: 100%;
     background: #f9f9f9;
-    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid #dfdfdf; */
 }
 /* brand */
 .brand{
@@ -174,6 +178,9 @@
     box-sizing: border-box;
     padding:19px;
     margin-bottom: 20px;
+}
+.famousList:last-child{
+    margin-bottom: 0;
 }
 .famousTit{
     height: 80px;

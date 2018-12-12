@@ -1,0 +1,264 @@
+
+.headMid{
+    height: 140px;
+}
+.cartMainBox{
+    width: 100%;
+    /* height: 1000px; */
+    background: white;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.cartTit{
+    width: 980px;
+    height: 51px;
+    margin:0 auto;
+    background: url(../imgs/cartImg/linepot.jpg) repeat-x 0px 49px;
+}
+
+
+.cartTit h2{
+    width: 130px;
+    font-size: 24px;
+    color: #333333;
+    height: 49px;
+    line-height: 49px;
+    border-bottom: 2px solid #fa4b9b;
+}
+.logoImg{
+    float: left;
+    margin-left: 45px;
+}
+.midRight{
+    float: right;
+    margin-top: 28px;
+}
+.midRight span{
+    display: inline-block;
+    width: 145px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    background: url(../imgs/cartImg/cart_step_fN.png);
+}
+.midRight span:nth-child(1){
+    background-position: 0px 0px;
+}
+.midRight span:nth-child(2){
+    background-position: -145px 0px;
+}
+.midRight span:nth-child(3){
+    background-position: -145px 0px;
+}
+
+.cartContBox{
+    width: 970px;
+    margin:0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+    overflow: hidden;
+}
+.contTit{
+    height: 16px;
+    line-height: 16px;
+    padding:18px 2px;
+    text-align: center;
+}
+.ci{
+    float: left;
+    width: 113px;
+}
+.contTit .ci1{
+    width: 87px;
+}
+.contTit .ci1{
+    width: 280px;
+}
+.ck{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+.ckBox{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../imgs/cartImg/ck.png) -20px -3px;
+}
+.ci2,.ci3,.ci4,.ci5,.ci6{
+    border-left: 1px solid #dddddd;
+}
+
+.goodsBox{
+    border:1px solid #ededed;
+    overflow: hidden;
+}
+.goodsTit{
+    height: 36px;
+    line-height: 23px;
+    background: #fafafa;
+    padding-top: 18px;
+}
+
+/* goodsBox */
+.goodsBox .ckBox{
+    float: left;
+    margin-left: 31px;
+}
+.goodsTit h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    display: inline-block;
+    margin-left: 6px;
+}
+.goods .ckBox{
+    margin-top: 50px;
+}
+.goodMsg{
+    float: left;
+    padding: 20px;
+    font-size: 12px;
+}
+.goodTxt{
+    float: left;
+}
+.imgG{
+    float: left;
+    width: 77px;
+    height: 77px;
+    border:1px solid #dddddd;
+}
+.gt{
+    float: left;
+}
+.txtL{
+    margin-left: 15px;
+    width: 390px;
+}
+.txtL a{
+    font-size: 11px;
+    color: #666666;
+    line-height: 24px;
+}
+.txtL p{
+    color: #adadad;
+    height: 56px;
+    line-height: 56px;
+}
+.txtPrice{
+    color: #666666;
+    font-size: 11px;
+    line-height: 25px;
+    width: 95px;
+}
+.txtPrice em{
+    font-style: normal;
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.buyCountBox{
+    float: left;
+    width:75px;
+    height: 22px;
+    border:1px solid #e2e2e2;
+    position: relative;
+}
+.buyCountBox span{
+    width: 22px;
+    position: absolute;
+}
+.de{
+    position: absolute;
+    background: url(../imgs/cartImg/jiajian.png);
+    
+}
+.minus{
+    width: 22px;
+    height: 22px;
+    left: 0px;
+    background-position:0px 0px;
+    border-right: 1px solid #e2e2e2;
+}
+.plus{
+    right: 0px;
+    width: 22px;
+    height: 22px;
+    float: left;
+    background-position:-24px -22px;
+    border-left: 1px solid #e2e2e2;
+}
+#buyCount1{
+    position: absolute;
+    width: 28px;
+    height: 22px;
+    left: 24px;
+    text-align: center;
+    font-style: normal;
+}
+
+.subPrice{
+    color: #ff69b4;
+    width: 115px;
+    margin-left: 60px;
+}
+.del{
+    color: #666666;
+}
+
+/* .payBox */
+.payBox{
+    margin-top: 50px;
+    border:1PX solid #dddddd;
+    height: 58px;
+    line-height: 58px;
+    color: #666666;
+    font-size: 11px;
+}
+.payBox .ckBox{
+    float: left;
+    margin-left: 22px;
+    margin-top: 19px;
+}
+.payBox label{
+    width: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    float: left;
+}
+.pay{
+    float: left;
+}
+.payL{
+    width: 397px;
+}
+.payL a{
+    color: #666666;
+}
+.payCont{
+    font-weight: 500;
+    color: #333333;
+}
+.payCont span{
+    color:#fa4b9b;
+    font-size: 16px;
+}
+#aPrice{
+    font-style: normal;
+}
+
+.payBtn a{
+    display: block;
+    width: 98px;
+    height: 58px;
+    background: #666666;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 98px;
+}
