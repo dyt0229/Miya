@@ -34,7 +34,8 @@
     padding: 4px;
     border:1px solid #f7f7f7;
 }
-.bigImg{
+#bigImg{
+    position: absolute;
     width: 396px;
 }
 .fuLeft{
@@ -280,6 +281,7 @@
     position: absolute;
     width: 28px;
     height: 28px;
+    line-height: 28px;
     left: 24px;
     text-align: center;
     font-style: normal;
