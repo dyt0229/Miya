@@ -1,4 +1,4 @@
-window.onload=function(){
+
     $("header").load("header.html");
     $("footer").load("footer.html");
 
@@ -15,4 +15,17 @@ window.onload=function(){
     });
 
 
-}
+
+$(function(){
+    console.log("1")
+    $.ajax({
+        type:"post",
+        url:"php/getGoodsList.php",
+        async:true,
+        data:{},
+        success:function(backdata){
+            console.log(backdata)
+        },
+        dataType:"json"
+    })
+})
