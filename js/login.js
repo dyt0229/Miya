@@ -1,5 +1,5 @@
 
-window.onload=function(){
+
 
     $("#username1").blur(function () {
             if ($(this).val() != '') {
@@ -54,4 +54,3 @@ window.onload=function(){
             });
         }
     });
-}

@@ -6,8 +6,7 @@ body,p,ul,em,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea,img{
 body{
 	width: 100%;
     font-family: "微软雅黑"，Arial;
-    /* background: #f2f2f0; */
-    background: white;
+    background: #f2f2f0;
 }
 a{
 	text-decoration:none;
