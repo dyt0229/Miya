@@ -81,7 +81,7 @@
 .proBox{
     background: #f2f2f0;
     overflow: hidden;
-    min-height: 762px;
+    /* min-height: 762px; */
 }
 .proNav li:last-child{
     width:635px;
@@ -106,7 +106,7 @@
 .proBox ul{
     width: 1100px;
     margin:0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding-bottom: 10px;
 }
 .proBox ul li{
@@ -115,7 +115,7 @@
     float: left;
     margin-right: 10px;
     margin-bottom: 14px;
-    /* position: relative; */
+    position: relative;
     /* z-index: 0; */
 }
 .proBox ul li:nth-child(4n){
@@ -125,8 +125,8 @@
     background: white;
     width: 265px;
     border:1px solid white;
-    position: relative;
-    z-index: 9;
+    position: absolute;
+    z-index: 2;
 }
 .reBox img{
     width: 265px;

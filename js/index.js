@@ -6,11 +6,7 @@ function createUI(that, top1) {
     that.append(boxDom);
 }
 
-
-window.onload=function(){
-    $("header").load("header.html");
-    $("footer").load("footer.html");
-                       
+$(function(){
     let s1 = new Slider03({
         $box: $("#banBox"),
         width: 1366,
@@ -21,9 +17,18 @@ window.onload=function(){
         btnSize: 10,
         timeSpace: 2000
     });
+    $("header").load("header.html");
+    $("footer").load("footer.html");
+});
+
+
+
+    
+                       
+    
     
 
    
-}
+
 
 

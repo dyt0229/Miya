@@ -42,9 +42,9 @@ $(function(){
             console.log(backdata);//json数组
             for(let i=0;i<backdata.length;i++){
                 // "+data[i].goodsId+"
-                let htmlStr = '<li>\
+                let htmlStr = '<li id="'+backdata[i].goodsId+'">\
                     <div class="reBox">\
-                        <img src="'+ backdata[i].goodsImg + '" alt="" id="'+backdata[i].goodsId+'"/>\
+                        <a><img src="'+ backdata[i].goodsImg+'"/></a>\
                         <div class="proText">\
                             <div class="proPrice">\
                                 <p>￥<b>'+backdata[i].goodsPrice+'</b><em>非自营</em><span>￥'+backdata[i].beiyong2+'</span></p>\
@@ -55,10 +55,14 @@ $(function(){
                 </div>\
             </li >';
             $(".proBox").children("ul").append(htmlStr);
-                dian();
             };
-
-           
+            
+            $(".reBox").parent().click (function () {
+                let goodsId=$(this).attr("id");
+                console.info(goodsId);
+                localStorage.goodsId = goodsId;
+                location.href="detail.html";
+            });
             
             $(".reBox").find("h3").css({ "white-space": "nowrap" });
             $(".reBox").css({ "border-color": "white", "z-index": "0" });
@@ -83,8 +87,4 @@ $(function(){
         // }
     })
 })
-    function dian(){
-        $(".reBox").on("click", function () {
-            alert(123);
-        });
-    }
+    
