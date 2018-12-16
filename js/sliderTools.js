@@ -434,8 +434,8 @@ Slider03.prototype.createUI = function () {
     this.$box.css({
         "width":this.width+'px',
         "height":this.height+'px',
-        "overflow":"hidden",
-        "position":"relative"
+        "overflow":"hidden"
+        // "position":"relative"
     });
     // this.boxDom.style.position = "relative";
     let htmlStr='';
